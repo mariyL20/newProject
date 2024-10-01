@@ -22,5 +22,3 @@ class Weather(Temp_out, Temp_in, Baro_out ):
         
 klimat = Weather(20, 25, 746)
 print(f'Температура на улице: {klimat.temp()} градусов')
-print(f'Температура в доме: {klimat.temp_home()} градусов')
-print(f'Атмосферное давление: {klimat.baro_out()} мм.рт.ст')
